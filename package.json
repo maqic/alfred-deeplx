@@ -1,6 +1,6 @@
 {
   "name": "alfred-deeplx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DeepLX Translate Alfred Workflow",
   "main": "index.js",
   "type": "module",
