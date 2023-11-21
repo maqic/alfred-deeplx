@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alfredapp.deeplx</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>56CC1F40-AECF-4394-B1E0-05F27200AE0A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D540A7DD-B06D-42CB-9B4D-5ED09C34FCC7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6686B913-F7FE-4BE8-B6B4-6FBA180D146E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6FAC84A7-0CCC-4867-B108-41C3EEDE412A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6FAC84A7-0CCC-4867-B108-41C3EEDE412A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>56CC1F40-AECF-4394-B1E0-05F27200AE0A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>BCF3E377-B246-4301-8BE6-C34D641A7A50</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>765A4E19-0FF2-4AB5-BE11-93413C85750E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+		<key>838BC6E7-4EB3-48D8-B696-F7801BF243AF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6FAC84A7-0CCC-4867-B108-41C3EEDE412A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Maqic Xu</string>
+	<key>description</key>
+	<string>DeepLX Translate Alfred Workflow</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>DeepLX Translate</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>17</integer>
+				<key>hotmod</key>
+				<integer>524288</integer>
+				<key>hotstring</key>
+				<string>T</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>838BC6E7-4EB3-48D8-B696-F7801BF243AF</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>56CC1F40-AECF-4394-B1E0-05F27200AE0A</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.hidealfred</string>
+			<key>uid</key>
+			<string>D540A7DD-B06D-42CB-9B4D-5ED09C34FCC7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>dp</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>2</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>正在翻译中...</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>请输入要翻译的内容</string>
+				<key>title</key>
+				<string>DeepLX 翻译</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>6FAC84A7-0CCC-4867-B108-41C3EEDE412A</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>BCF3E377-B246-4301-8BE6-C34D641A7A50</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>2</integer>
+				<key>hotmod</key>
+				<integer>524288</integer>
+				<key>hotstring</key>
+				<string>D</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>6686B913-F7FE-4BE8-B6B4-6FBA180D146E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>echo -n "$1" | say -v Samantha</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>765A4E19-0FF2-4AB5-BE11-93413C85750E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># DeepLX Translate Alfred 插件
+
+## 依赖
+
+- [DeepLX](https://github.com/OwO-Network/DeepLX/tree/main#run-on-mac)
+- Alfred
+- Node.js
+
+## 安装
+
+```bash
+npm i -g alfred-deeplx
+```
+
+## 配置
+
+&gt; 通过设置 alfred 插件 Environment Variables 注入变量
+
+### host
+
+- deeplx 服务端地址，注意不需要加 `/`
+- 默认值: http://localhost:1188
+
+### token
+
+- deeplx 访问 token，可选
+- 默认值：无
+
+## 使用
+
+- 唤起 alfred，输入关键字 `dpx` 输入待翻译内容
+- 通过快捷键 `⌥ + D` 翻译当前系统选中的文案
+- 通过快捷键 `⌥ + T` 唤起插件
+
+## 运行截图
+
+![zh-to-en](https://mdn.alipayobjects.com/huamei_ewonmy/afts/img/A*GcyQSq1tFnoAAAAAAAAAAAAADmihAQ/original)
+
+![en-to-zh](https://mdn.alipayobjects.com/huamei_ewonmy/afts/img/A*4zQwQo9M9QMAAAAAAAAAAAAADmihAQ/original)</string>
+	<key>uidata</key>
+	<dict>
+		<key>56CC1F40-AECF-4394-B1E0-05F27200AE0A</key>
+		<dict>
+			<key>xpos</key>
+			<real>630</real>
+			<key>ypos</key>
+			<real>105</real>
+		</dict>
+		<key>6686B913-F7FE-4BE8-B6B4-6FBA180D146E</key>
+		<dict>
+			<key>xpos</key>
+			<real>85</real>
+			<key>ypos</key>
+			<real>285</real>
+		</dict>
+		<key>6FAC84A7-0CCC-4867-B108-41C3EEDE412A</key>
+		<dict>
+			<key>xpos</key>
+			<real>380</real>
+			<key>ypos</key>
+			<real>245</real>
+		</dict>
+		<key>765A4E19-0FF2-4AB5-BE11-93413C85750E</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>本地发音</string>
+			<key>xpos</key>
+			<real>620</real>
+			<key>ypos</key>
+			<real>425</real>
+		</dict>
+		<key>838BC6E7-4EB3-48D8-B696-F7801BF243AF</key>
+		<dict>
+			<key>xpos</key>
+			<real>90</real>
+			<key>ypos</key>
+			<real>95</real>
+		</dict>
+		<key>BCF3E377-B246-4301-8BE6-C34D641A7A50</key>
+		<dict>
+			<key>xpos</key>
+			<real>625</real>
+			<key>ypos</key>
+			<real>255</real>
+		</dict>
+		<key>D540A7DD-B06D-42CB-9B4D-5ED09C34FCC7</key>
+		<dict>
+			<key>xpos</key>
+			<real>790</real>
+			<key>ypos</key>
+			<real>135</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variables</key>
+	<dict>
+		<key>reverseTranslate</key>
+		<string>true</string>
+		<key>showAlternatives</key>
+		<string>true</string>
+	</dict>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/maqic/alfred-deeplx</string>
+</dict>
+</plist>
