@@ -1,7 +1,7 @@
 {
   "name": "alfred-deeplx",
   "version": "1.0.0",
-  "description": "deeplx alfred workflow",
+  "description": "DeepLX Translate Alfred Workflow",
   "main": "index.js",
   "type": "module",
   "scripts": {

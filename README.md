@@ -2,7 +2,7 @@
 
 ## 依赖
 
-- [DeepLX](https://github.com/OwO-Network/DeepLX/tree/main#run-on-mac)
+- [**DeepLX**](https://github.com/OwO-Network/DeepLX/tree/main#run-on-mac)
 - [Alfred 4 or later](https://www.alfredapp.com) with the paid [Powerpack](https://www.alfredapp.com/powerpack/) upgrade
 - [Node.js 16+](https://nodejs.org)
 
